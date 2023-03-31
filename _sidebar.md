@@ -1,3 +1,3 @@
 <!-- docs/_sidebar.md -->
 
-* [](./Content/BuildPersonalKnowledgeBase.md)
+* [测试一下](./Content/BuildPersonalKnowledgeBase.md)
