@@ -16,13 +16,13 @@
 
 # **🚀先看成果**
 
-> [野生钢铁侠の知识库](https://mrli123456789.github.io/)
+> [钟宸宸の知识库](https://chensharing.github.io/)
 
 > [!NOTE]
 >
-> 来到我的知识库网站，想必大家已经看到封面的介绍了，从2022年3月6日建站开始，这个网站在一点点地丰富，也因为你的到来，让这个网站开始变得更有价值。**不忘初心，方得始终。**在这里，我将再一次声明**建站的初衷**：
+> 来到我的知识库网站，想必大家已经看到封面的介绍了，从2023年4月1日建站开始，这个网站在一点点地丰富，也因为你的到来，让这个网站开始变得更有价值。**志同道合的人本就应该成群结队**在这里，我将再一次声明**建站的初衷**：
 >
-> ***我想制作这样一个知识库网站：在这里，我会为每一个跟我一样，想成为野生钢铁侠，但不知从何下手的的大学生，提供技能树中每一项技能的详细学习的路线。如果这个网站能够给一些志同道合的人一点的帮助，就一切都值得了。***
+> ***我想制作这样一个知识库网站：在这里，我会为每一个跟我一样，但不知从何下手的的大学生，提供我所了解的每一项技能的详细学习的路线。如果这个网站能够给一些志同道合的人一点的帮助，就一切都值得了。***
 >
 > 好了，接下来将具体向你展示我当初从想法到建站的过程。
 
@@ -54,6 +54,7 @@
 
 > 打造一个免费的个人知识库，干净又卫生！
 
+
 <iframe src="//player.bilibili.com/player.html?aid=508269542&bvid=BV1eu411m797&cid=488687458&page=1&as_wide=1&high_quality=1&danmaku=1" allowfullscreen="true" width="100%" height="450" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>
 
 > [!NOTE]
@@ -66,9 +67,32 @@
 >
 > 提取码: z7hm
 
-> [!TIP]
-> **第三步：GitHub Page部署**
+## 第一步：初始化一个项目
+> [!NOTE]
+> 然后我们选择一个目录，作为我们的博客站点目录。也就是项目要生成的目录。
+比如我在D盘下新建了一个myblogs的目录
+>
+> 然后打开CMD黑框，cd到该目录，执行如下命令：
+>   ```bash
+> 通过使用 CD 命令，并加入参数 /d ，可以通过一个步骤，直接进入指定盘符下的任意文件夹。
+> 一个步骤进入D盘下的myblogs目录，如：
+> cd /d d:\myblogs
+>   ```
+> ```bash
+> 初始化成功后，可以看到 目录下创建的几个文件
+> index.html 入口文件
+> README.md 会做为主页内容渲染
+> .nojekyll 用于阻止 GitHub Pages 忽略掉下划线开头的文件
+> 直接编辑 docs/README.md 就能更新文档内容，当然也可以添加更多页面。
+> ```
 
+## 第二步：本地运行docsify创建的项目
+> [!NOTE]
+> 通过运行 docsify serve 项目名称 启动一个本地服务器，可以方便地实时预览效果。
+>
+> 默认访问地址 http://localhost:3000 。
+
+## 第三步：GitHub Page部署
 > [!NOTE]
 >
 > 相较于Blog的部署，知识库的部署要简单很多。
@@ -93,20 +117,18 @@
 >
 >   选择完成之后，点击`save`，即可看到自己的网址了
 
-> [!TIP]
-> **第四步：配置参数、优化改造**
-
+## 第四步：配置参数、优化改造
 > CSDN:
 >
 > [docsify 构建文档网站之定制功能](https://blog.csdn.net/wugenqiang/article/details/107071378)
 >
 > Docsify官方文档:
 >
-> [Docsify](https://docsify.js.org/#/zh-cn/)
+> [Docsify](https://docsify.js.org/)
 
 > [!TIP]
 >
-> **第五步：标准化上传流程**
+## 第五步：标准化上传流程
 
 > [!NOTE]
 >
@@ -174,5 +196,14 @@
   我对比了GitHub和Gitee，发现`Gitee`开启Page功能需要`实名认证`，相较而言，`GitHub`的注册只需一个邮箱账号，且Page功能可以`直接开放`，这对于小白练手很是友好。所以我认为第二种方案更加友好。
 
 ------
+> **参考文献**
+> 
+> [野生钢铁侠知识库](https://mrli123456789.github.io/)
+> 
+> [Github Pages + docsify](https://www.cnblogs.com/happyone/p/12152566.html)
+> 
+> [Docsify使用指南](https://www.cnblogs.com/Can-daydayup/p/15413267.html)
+> 
+> [如何使用jsDelivr+Github 实现免费CDN加速](https://zhuanlan.zhihu.com/p/346643522)
 
-By : Redamancy785 | 2022/3/8
+By : Lucas Zhong | 2023/4/1
