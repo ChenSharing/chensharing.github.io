@@ -1,5 +1,5 @@
 
-![logo](http://suchen.scxc.ink/2023/04/01/ca19469676159.webp)
+![logo]([http://suchen.scxc.ink/2023/04/01/ca19469676159.webp](https://cdn.staticaly.com/gh/ChenSharing/picx-images-hosting@master/20230416/docsifyLogo.7h4hb08v3tg0.webp)
 
 
 - **想寻大树乘凉 不如自栽 自养 自乘凉**
